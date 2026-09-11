@@ -9,19 +9,30 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "geist": "^1.7.2",
+    "lucide-react": "^1.44.0",
+    "next": "15.5.25",
+    "pgvector": "^0.3.0",
+    "postgres": "^3.4.9",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.25"
+    "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "15.5.25",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "tsx": "^4.23.13",
+    "typescript": "^5"
   }
 }
